@@ -101,7 +101,6 @@ def go(args):
 
     ######################################
     # Upload the model we just exported to W&B
-    # HINT: use wandb.Artifact to create an artifact. Use args.output_artifact as artifact name, 'model_export' as
     # type, provide a description and add rf_config as metadata. Then, use the .add_dir method of the artifact instance
     # you just created to add the 'random_forest_dir' directory to the artifact, and finally use
     # run.log_artifact to log the artifact to the run
@@ -218,7 +217,6 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # Create the inference pipeline. The pipeline must have 2 steps: a step called 'preprocessor' applying the
     # ColumnTransformer instance that we saved in the `preprocessor` variable, and a step called 'random_forest'
     # with the random forest instance that we just saved in the `random_forest` variable.
-    # HINT: Use the explicit Pipeline constructor so you can assign the names to the steps, do not use make_pipeline
     sk_pipe = Pipeline(steps = [('preprocessor', preprocessor), ('random_forest', random_Forest)]) # YOUR CODE HERE
 
     return sk_pipe, processed_features
