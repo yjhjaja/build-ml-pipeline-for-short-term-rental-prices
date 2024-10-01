@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/junhui.yang/Desktop/github/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/29a5a2cfa996421bbe447afd89313cd0/artifacts
+end_time: 1727790699881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29a5a2cfa996421bbe447afd89313cd0
+run_name: loud-swan-670
+run_uuid: 29a5a2cfa996421bbe447afd89313cd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727790618657
+status: 3
+tags: []
+user_id: junhui.yang

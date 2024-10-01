@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/junhui.yang/Desktop/github/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/f69d1a30bebd4551a58b4ea581303e8e/artifacts
+end_time: 1727790856326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f69d1a30bebd4551a58b4ea581303e8e
+run_name: silent-lamb-765
+run_uuid: f69d1a30bebd4551a58b4ea581303e8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727790298459
+status: 3
+tags: []
+user_id: junhui.yang

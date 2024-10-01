@@ -1,0 +1,61 @@
+{
+    "os": "macOS-14.1.2-arm64-arm-64bit",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-10-01T13:51:34.017528",
+    "startedAt": "2024-10-01T13:51:33.524968",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/opt/anaconda3/envs/mlflow-9c808d066c836f9b45f789cddd83d3e762aed84d/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/yjhjaja/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "3329e44afd4db3c0c57be79e2435efd85a45deb5"
+    },
+    "email": null,
+    "root": "/Users/junhui.yang/Desktop/github/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "Junhuis-MacBook-Pro.local",
+    "username": "junhui.yang",
+    "executable": "/opt/anaconda3/envs/mlflow-9c808d066c836f9b45f789cddd83d3e762aed84d/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 13.49612808227539
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
