@@ -23,9 +23,6 @@ def go(args):
     # particular version of the artifact
     # artifact_local_path = run.use_artifact(args.input_artifact).file()
 
-    ######################
-    # YOUR CODE HERE     #
-    ######################
     logger.info('Downloading artifact')
     local_path = wandb.use_artifact(args.input_artifact).file()
     df = pd.read_csv(local_path)
