@@ -312,7 +312,7 @@ with the cleaned data:
    comments like ``INSERT TYPE HERE`` and ``INSERT DESCRIPTION HERE``). All parameters should be
    of type ``str`` except ``min_price`` and ``max_price`` that should be ``float``.
    
-3. Implement in the section marked ```# YOUR CODE HERE     #``` the steps we 
+3. Implement the steps we 
    have implemented in the notebook, including downloading the data from W&B. 
    Remember to use the ``logger`` instance already provided to print meaningful messages to screen. 
    
